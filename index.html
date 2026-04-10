@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabores Rústicos - Catering Premium de Quesos y Embutidos</title>
+    <meta name="description"
+        content="Especialistas en tablas de quesos artesanales, embutidos y catering para eventos especiales. Sabor y elegancia en cada bocado.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Outfit:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar" id="navbar">
+        <div class="logo">
+            <span>Sabores Rústicos</span>
+        </div>
+        <nav class="nav-links">
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#galeria">Galería</a>
+            <a href="#contacto" class="btn btn-outline">Cotizar</a>
+        </nav>
+        <button class="menu-toggle" aria-label="Abrir menú">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 12h18M3 6h18M3 18h18"></path>
+            </svg>
+        </button>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="fade-in-up">Arte en cada tabla, <br> sabor en cada ocasión.</h1>
+            <p class="fade-in-up delay-1">Especialistas en catering de quesos, embutidos y mesas saladas para eventos
+                que dejan huella.</p>
+            <div class="hero-buttons fade-in-up delay-2">
+                <a href="#contacto" class="btn btn-primary">Reserva tu fecha</a>
+                <a href="#servicios" class="btn btn-secondary">Ver Menú</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Qué Ofrecemos</h2>
+                <p>Nuestra cuidada selección de productos artesanales, listos para deleitar a tus invitados.</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="service-icon">🧀</div>
+                    <h3>Tablas de Quesos</h3>
+                    <p>Una selección premium de quesos madurados, acompañados de frutos secos y mermeladas artesanales.
+                    </p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon">🥩</div>
+                    <h3>Embutidos Ibéricos</h3>
+                    <p>Cortes seleccionados de la más alta calidad, dispuestos elegantemente para seducir el paladar.
+                    </p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon">🥪</div>
+                    <h3>Mesas Saladas</h3>
+                    <p>Mini sándwiches gourmet, hojaldres y bocadillos variados ideales para reuniones y celebraciones.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="galeria" class="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nuestros Eventos</h2>
+                <p>Un vistazo a las experiencias y montajes que hemos creado.</p>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item reveal">
+                    <img src="assets/_MG_0028.jpg" alt="Mesa de catering 1" loading="lazy">
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="assets/_MG_0043.jpg" alt="Mesa de catering 2" loading="lazy">
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="assets/_MG_0044.jpg" alt="Mesa de catering 3" loading="lazy">
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="assets/_MG_0045.jpg" alt="Mesa de catering 4" loading="lazy">
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="assets/_MG_0046.jpg" alt="Mesa de catering 5" loading="lazy">
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="assets/_MG_0107.jpg" alt="Mesa de catering 6" loading="lazy">
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="assets/_MG_0108.jpg" alt="Mesa de catering 7" loading="lazy">
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="assets/_MG_0109.jpg" alt="Mesa de catering 8" loading="lazy">
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="assets/_MG_0110.jpg" alt="Mesa de catering 9" loading="lazy">
+                </div>
+            </div>
+
+            <div class="gallery-cta">
+                <p></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <div class="contact-card reveal">
+                <div class="contact-info">
+                    <h2>Hablemos de tu evento</h2>
+                    <p>Ponte en contacto con nosotros para personalizar tu menú y asegurar una fecha.</p>
+                    <ul class="info-list">
+                        <li><span>📍</span> Eventos en toda la ciudad</li>
+                        <li><span>📱</span> +1 234 567 8900</li>
+                        <li><span>✉️</span> hola@saboresrusticos.com</li>
+                        <li><span>📸</span> @saboresrusticos</li>
+                    </ul>
+                </div>
+                <form class="contact-form" id="form-contacto">
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="evento">Tipo de Evento</label>
+                        <input type="text" id="evento" name="evento" placeholder="Ej. Boda, Cumpleaños, Corporativo">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" required
+                            placeholder="Cuéntanos un poco sobre lo que necesitas..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Enviar Solicitud</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="brand">Sabores Rústicos</div>
+            <p>&copy; 2026 Reservados todos los derechos. Diseñado con IA.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
